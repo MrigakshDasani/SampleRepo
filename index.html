@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+
+        header {
+            background: #00796b;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover{
+            background-color: #fff;
+            text-decoration: none;
+            font-size: 1.3rem;
+            border: 2px solid;
+            border-radius: 5px;
+            color: #00796b;
+            padding:10px;
+            margin:5px;
+        }
+
+        main {
+            padding: 2rem;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .project {
+            background: #b2dfdb;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #00796b;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="developer.jpeg" alt="Developer Image">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with experience in creating modern web applications. This is my portfolio
+                where you can learn more about my skills and projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="project">
+                <h3>Web Development</h3>
+                <p>Experienced in HTML, CSS, JavaScript, and various frameworks.</p>
+            </div>
+            <div class="project">
+                <h3>Backend Development</h3>
+                <p>Proficient in Node.js, Express, and database management.</p>
+            </div>
+            <div class="project">
+                <h3>Analytics</h3>
+                <p>Skilled in Python Frameworks .</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can contact me at <a href="mrigakshdasani22@gnu.ac.in">mrigakshdasani22@gnu.ac.in</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--script>
+    <button id="off" onclick="turnOn()">ON</button>
+    <button id="off" onclick="turnOff()">OFF</button>
+
+        // Function to turn the bulb on
+        function turnOn() {
+            document.getElementById('bulb').src = 'bulb_on.png';
+        }
+
+        // Function to turn the bulb off
+        function turnOff() {
+            document.getElementById('bulb').src = 'bulb_off.png';
+        }
+        </script-->
+
+
+
+
+
+
+<!--script>
+<img id="bulb" src="bulb_off.png" width="100" height="180" onclick="toggleBulb()"><br /><br />
+function toggleBulb() {
+    var bulb = document.getElementById('bulb');
+    if (bulb.src.match('bulb_off.png')) {
+        bulb.src = 'bulb_on.png';
+    } else {
+        bulb.src = 'bulb_off.png';
+    }
+}
+</script-->
